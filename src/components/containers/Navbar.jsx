@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { logo } from "@/assets"; // Adjust this import path as per your project
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import images from "../../assets";
+
+const logo = images?.logo;
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
