@@ -32,13 +32,13 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full flex top-0 justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 ${
+      className={`w-full py-2 flex justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 z-50 ${
         isScrolled ? "bg-white shadow-xl" : "bg-blue-900"
       }`}
     >
       <div className="flex items-center justify-between mb-4 md:mb-0">
         <Link to="/" className="flex items-center justify-center gap-4">
-          <img src={logo} alt="Logo" className="h-10 animate-spin" />
+          <img src={logo} alt="Logo" className="h-10 animate-spin rounded-xl" />
           <span
             className={`text-3xl font-bold ${
               isScrolled ? "text-blue-600" : "text-white"
@@ -89,7 +89,7 @@ export default function Navbar() {
       <div className="hidden md:flex">
         <Link to="/contact">
           <button
-            className="flex p-2 md:p-2 px-6 md:px-8  bg-blue-600 text-white rounded-lg"
+            className="flex p-2 md:p-2 px-6 md:px-8 bg-blue-600 text-white rounded-lg"
             onClick={closeMenu}
           >
             Contact Us
