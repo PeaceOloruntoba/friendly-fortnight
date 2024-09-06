@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import jumbotron from "../../assets/jumbotron.png"; // Adjust path based on your folder structure
-import homebottom from "../../assets/homebottom.png"; // Adjust path based on your folder structure
+import images from "../../../assets"
+
+const jumbotron = images?.jumbotron
+const homebottom = images?.homebottom;
 
 export default function Jumbotron() {
   return (
