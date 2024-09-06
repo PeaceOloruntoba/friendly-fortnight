@@ -32,13 +32,13 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full flex z-20 top-0 justify-between items-center px-4 pr-6 md:pr-16 md:text-sm font-semibold transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-xl" : "bg-transparent"
+      className={`w-full flex top-0 justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 ${
+        isScrolled ? "bg-white shadow-xl" : "bg-blue-900"
       }`}
     >
       <div className="flex items-center justify-between mb-4 md:mb-0">
         <Link to="/" className="flex items-center justify-center gap-4">
-          <img src={logo} alt="Logo" className="h-10" />
+          <img src={logo} alt="Logo" className="h-10 animate-spin" />
           <span
             className={`text-3xl font-bold ${
               isScrolled ? "text-blue-600" : "text-white"

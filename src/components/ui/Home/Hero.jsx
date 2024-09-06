@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import images from "../../../assets"
+import images from "../../../assets";
 
-const jumbotron = images?.jumbotron
+const jumbotron = images?.jumbotron;
 const homebottom = images?.homebottom;
 
 export default function Jumbotron() {

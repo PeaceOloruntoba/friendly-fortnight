@@ -8,7 +8,7 @@ const aboutimg = images?.aboutimg;
 export default function About() {
   return (
     <div>
-      <div className="w-full md:h-screen flex items-center p-4 mt-[-60px]">
+      {/* <div className="w-full md:h-screen flex items-center p-4 mt-[-60px]">
         <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2">
             <p className="uppercase text-3xl text-sky-600 pt-14 font-bold">
@@ -42,7 +42,7 @@ export default function About() {
             <img className="rounded-xl" src={aboutimg} alt="/" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

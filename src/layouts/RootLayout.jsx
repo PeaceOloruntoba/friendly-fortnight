@@ -8,7 +8,7 @@ export default function RootLayout() {
   return (
     <div className="w-screen min-h-screen flex flex-col">
       <Header />
-      <div className="sticky top-0">
+      <div className="w-full">
         <Navbar />
       </div>
       <Outlet />
