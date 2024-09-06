@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import images from "../../assets";
 import Hamburger from "./Hamburger";
+import images from "../../assets";
 
 const logo = images?.logo;
 

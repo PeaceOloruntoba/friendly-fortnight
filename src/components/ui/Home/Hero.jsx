@@ -8,8 +8,11 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import images from "../../../assets";
 
-export default function Jumbotron() {
+const logo = images?.logo;
+
+export default function Hero() {
   return (
     <div>
       <div className="mt-16 p-4">
