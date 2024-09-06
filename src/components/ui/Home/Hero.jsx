@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="mt-16 p-4">
         <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
           <img
-            className="md:rounded-none rounded-full mx-auto"
+            className="md:rounded-none rounded-full mx-auto max-w-96"
             src={logo}
             alt=""
           />
