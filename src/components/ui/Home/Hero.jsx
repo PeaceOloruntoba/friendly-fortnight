@@ -1,57 +1,44 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaMailBulk,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
-import images from "../../../assets";
+import { Link } from "react-router-dom";
+import jumbotron from "../../assets/jumbotron.png"; // Adjust path based on your folder structure
+import homebottom from "../../assets/homebottom.png"; // Adjust path based on your folder structure
 
-const logo = images?.logo;
-
-export default function Hero() {
+export default function Jumbotron() {
   return (
     <div>
-      <div className="mt-16 p-4">
-        <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-          <img
-            className="md:rounded-none rounded-full mx-auto max-w-96"
-            src={logo}
-            alt=""
-          />
-          {/* <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512"> */}
-          <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-            <blockquote>
-              <p className="text-lg font-medium text-white">
-                Easing Life Group of Company is a Ghana based company that is
-                available to render their services everywhere around the world.
-              </p>
-              <br />
-              <p className="text-lg font-medium text-white">
-                As the name implies, Easing Life is founded only for the main
-                purpose of easing the life of our customers.
-              </p>
-            </blockquote>
-            <figcaption className="font-medium">
-              <div className="flex dark:text-sky-400 text-4xl m-2 justify-between">
-                <FaGithub className="cursor-pointer hover:text-sky-800" />
-                <FaFacebook className="cursor-pointer hover:text-sky-800" />
-                <FaTwitter className="cursor-pointer hover:text-sky-800" />
-                <FaInstagram className="cursor-pointer hover:text-sky-800" />
-                <FaLinkedin className="cursor-pointer hover:text-sky-800" />
-                <FaMailBulk className="cursor-pointer hover:text-sky-800" />
-                <FaWhatsapp className="cursor-pointer hover:text-sky-800" />
-              </div>
-              <div className="text-slate-700 dark:text-slate-500">
-                you can connect with us...
-              </div>
-            </figcaption>
+      <div className="w-full pt-40 font-semibold bg-gradient-to-b from-blue-900 via-blue-600 to-blue-500 py-28">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-12 px-32">
+          <div className="flex flex-col pt-24 items-start justify-center gap-6">
+            <p className="text-white text-7xl font-bold">
+              IT Solution & Business Service Company
+            </p>
+            <p className="text-xl text-white font-normal">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+              nemo quas id natus quod? Nostrum quo cum unde molestiae deleniti
+              nam adipisci, sapiente optio aspernatur? Minima consectetur illo
+              quod? Ad.
+            </p>
+            <span className="flex items-start justify-center gap-8">
+              <Link to="/services">
+                <button className="bg-white py-3 px-6 text-xl rounded-lg text-blue-800">
+                  Our Services
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button className="bg-blue-800 py-3 px-6 text-xl rounded-lg text-white">
+                  Contact Us
+                </button>
+              </Link>
+            </span>
           </div>
-        </figure>
+          <img src={jumbotron} alt="Jumbotron" className="z-10" width={400} />
+        </div>
       </div>
+      <img
+        src={homebottom}
+        alt="Home Bottom"
+        className="lg:-mt-96 md:-mt-52 sm:-mt-52"
+      />
     </div>
   );
 }
