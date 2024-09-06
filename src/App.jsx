@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Portfolio from "./pages/Portfolio";
 
 export default function App() {
   return (
@@ -9,6 +12,10 @@ export default function App() {
         <Routes>
           <Route element={<RootLayout />}>
             <Route path="" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="services/:serviceName" element={<Services />} />
+            <Route path="portfolio" element={<Portfolio />} />
           </Route>
         </Routes>
       </Router>
