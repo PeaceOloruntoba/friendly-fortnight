@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import images from "../../assets";
+import images from "../../../assets";
 
 const aboutimg = images?.aboutimg;
 
