@@ -6,9 +6,11 @@ import Footer from "../components/containers/Footer";
 
 export default function RootLayout() {
   return (
-    <div className="w-screen h-screen flex flex-col">
+    <div className="w-screen min-h-screen flex flex-col">
       <Header />
-      <Navbar />
+      <div className="sticky top-0">
+        <Navbar />
+      </div>
       <Outlet />
       <Footer />
     </div>

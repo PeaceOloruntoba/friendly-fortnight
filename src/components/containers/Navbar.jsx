@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import images from "../../assets";
+import Hamburger from "./Hamburger";
 
 const logo = images?.logo;
 
@@ -31,7 +32,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full flex fixed z-20 top-0 justify-between items-center px-4 pr-6 md:pr-16 text-xl font-semibold transition-all duration-300 ${
+      className={`w-full flex z-20 top-0 justify-between items-center px-4 pr-6 md:pr-16 md:text-sm font-semibold transition-all duration-300 ${
         isScrolled ? "bg-white shadow-xl" : "bg-transparent"
       }`}
     >
@@ -47,13 +48,9 @@ export default function Navbar() {
           </span>
         </Link>
       </div>
-      <div
-        className={`mb-4 md:mb-0 md:flex md:items-center ${
-          isMenuOpen ? "flex" : "hidden"
-        }`}
-      >
+      <div className="hidden md:flex md:items-center">
         <ul
-          className={`flex flex-col md:flex-row gap-4 md:gap-6 ${
+          className={`flex flex-row gap-4 md:gap-6 ${
             isScrolled ? "text-blue-600" : "text-white"
           }`}
         >
@@ -89,10 +86,10 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className={`md:flex ${isMenuOpen ? "flex" : "hidden"}`}>
+      <div className="hidden md:flex">
         <Link to="/contact">
           <button
-            className="flex p-2 md:p-4 px-6 md:px-12 bg-blue-600 text-white rounded-lg"
+            className="flex p-2 md:p-2 px-6 md:px-8  bg-blue-600 text-white rounded-lg"
             onClick={closeMenu}
           >
             Contact Us
@@ -106,6 +103,11 @@ export default function Navbar() {
         >
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
+      </div>
+
+      {/* Hamburger for mobile screens */}
+      <div className="md:hidden">
+        <Hamburger isOpen={isMenuOpen} closeMenu={closeMenu} />
       </div>
     </nav>
   );

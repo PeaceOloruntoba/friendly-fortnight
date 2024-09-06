@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-black text-white'>
       Home
     </div>
   )
