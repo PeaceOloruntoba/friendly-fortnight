@@ -33,7 +33,7 @@ export default function Jumbotron() {
               </Link>
             </span>
           </div>
-          <img src={jumbotron} alt="Jumbotron" className="z-10" width={400} />
+          <img src={jumbotron} alt="Jumbotron" className="z-" width={400} />
         </div>
       </div>
       <img

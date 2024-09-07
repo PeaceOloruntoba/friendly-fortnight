@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full py-2 flex justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 z-50 ${
+      className={`w-full py-2 z-50 flex justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 ${
         isScrolled ? "bg-white shadow-xl" : "bg-blue-900"
       }`}
     >
