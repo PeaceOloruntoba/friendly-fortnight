@@ -31,11 +31,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full py-2 z-50 flex justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 ${
+      className={`w-full z-50 py-1 flex justify-between bg-transparent items-center px-4 md:text-sm font-semibold transition-all duration-300 ${
         isScrolled ? "bg-white shadow-xl" : "bg-blue-900"
       }`}
     >
-      <div className="flex items-center justify-between mb-4 md:mb-0">
+      <div className="flex items-center justify-between md:mb-0">
         <Link to="/" className="flex items-center justify-center gap-4">
           <img src={logo} alt="Logo" className="h-10 animate-spin rounded-xl" />
           <span
