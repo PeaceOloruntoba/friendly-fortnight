@@ -13,15 +13,14 @@ export default function Hamburger() {
         className="text-gray-500 focus:outline-none focus:text-gray-600"
         onClick={toggleMenu}
       >
-        {isOpen ? (
-          <CgCloseR className="text-3xl" />
-        ) : (
-          <CgMenuRight className="text-3xl" />
-        )}
+        <CgMenuRight className="text-black/70 text-2xl" />
       </button>
 
       {isOpen && (
         <div className="fixed top-0 left-0 bottom-0 z-10 bg-opacity-90 w-screen h-screen bg-black/80 text-white font-semibold text-lg shadow-lg">
+          <div className="absolute top-5 right-5" onClick={toggleMenu}>
+            <CgCloseR className="text-white text-3xl" />
+          </div>
           <div className="flex flex-col gap-8 items-start h-screen p-4 pt-[4em]">
             <ul className="flex flex-col gap-4">
               <li>

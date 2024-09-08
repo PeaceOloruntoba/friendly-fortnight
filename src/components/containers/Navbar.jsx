@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
 import Hamburger from "./Hamburger";
 import images from "../../assets";
 
@@ -40,7 +39,7 @@ export default function Navbar() {
         <Link to="/" className="flex items-center justify-center gap-4">
           <img src={logo} alt="Logo" className="h-10 animate-spin rounded-xl" />
           <span
-            className={`text-3xl font-bold ${
+            className={`text-xl font-bold ${
               isScrolled ? "text-blue-600" : "text-white"
             }`}
           >
@@ -96,15 +95,6 @@ export default function Navbar() {
           </button>
         </Link>
       </div>
-      <div className="md:hidden">
-        <button
-          onClick={handleMenuToggle}
-          className="text-blue-600 focus:outline-none"
-        >
-          {isMenuOpen ? <FaTimes /> : <FaBars />}
-        </button>
-      </div>
-
       {/* Hamburger for mobile screens */}
       <div className="md:hidden">
         <Hamburger isOpen={isMenuOpen} closeMenu={closeMenu} />
