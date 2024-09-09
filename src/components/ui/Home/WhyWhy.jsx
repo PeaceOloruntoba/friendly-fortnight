@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import images from "../../../assets";
 
@@ -8,7 +7,7 @@ export default function WhyWhy() {
   return (
     <div className="grid py-10 px-20">
       <div className="lg:flex grid py-10 gap-6">
-        <Image src={choose} alt="" width={600} className="pl-20" />
+        <img src={choose} alt="" width={600} className="pl-20" />
         <div className="grid">
           <p className="text-[#ff9800] text-2xl font-semibold">
             Why Choose Us?
@@ -77,7 +76,7 @@ export default function WhyWhy() {
             </div>
           </div>
         </div>
-        <Image src={choose} alt="" width={600} className="pl-20" />
+        <img src={choose} alt="" width={600} className="pl-20" />
       </div>
     </div>
   );
