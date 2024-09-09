@@ -1,4 +1,4 @@
-const cardData = [
+export const servicesData = [
   {
     id: "it-solution",
     title: "Easing Life IT Solution",
