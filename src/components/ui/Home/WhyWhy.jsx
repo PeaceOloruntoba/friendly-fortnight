@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { choose } from "@/assets";
+import images from "../../../assets";
 
-export default function Land() {
+const choose = images?.choose;
+
+export default function WhyWhy() {
   return (
     <div className="grid py-10 px-20">
       <div className="lg:flex grid py-10 gap-6">
