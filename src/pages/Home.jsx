@@ -5,7 +5,7 @@ import Services from "../components/ui/Home/Services";
 
 export default function Home() {
   return (
-    <div className="text-white">
+    <div className="bg-white">
       <Hero />
       <About />
       <Services />
