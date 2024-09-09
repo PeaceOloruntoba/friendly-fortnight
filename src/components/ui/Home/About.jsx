@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div>
       <div className="bg-[#F7F8F8] flex flex-col md:flex-row p-4 lg:p-16 gap-4">
-        <div className="grid py-8 gap-2 lg:gap-0">
+        <div className="flex flex-col items-start justify-center py-8 gap-2 lg:gap-4 w-full">
           <p className="text-[#ff9800] text-lg md:text-2xl font-semibold">
             About Our Company
           </p>
@@ -22,50 +22,76 @@ export default function About() {
             repudiandae sint, saepe ad, officiis quaerat nihil reprehenderit
             soluta, molestias doloremque veniam.
           </p>
-          {/* <div className="grid text-[#212529]">
-            <div className="flex justify-between items-center">
-              <span className="text-base font-medium">Flowbite</span>
-              <span className="text-sm font-medium">90%</span>
+          <div className="flex flex-col text-[#212529] w-full">
+            <div className="flex items-center justify-between">
+              <span>Customer Relation</span>
+              <span>90%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
               <div
-                className="bg-[#7b68ee] h-3 rounded-full"
+                className="h-3 rounded-full bg-[#7b68ee]"
                 style={{ width: "90%" }}
               ></div>
             </div>
           </div>
-          <div className="grid text-[#212529]">
-            <div className="flex justify-between items-center">
-              <span className="text-base font-medium">Flowbite</span>
-              <span className="text-sm font-medium">75%</span>
+          <div className="flex flex-col text-[#212529] w-full">
+            <div className="flex items-center justify-between">
+              <span>Customer Relation</span>
+              <span>90%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
               <div
-                className="bg-[#7b68ee] h-3 rounded-full"
-                style={{ width: "75%" }}
+                className="h-3 rounded-full bg-[#7b68ee]"
+                style={{ width: "90%" }}
               ></div>
             </div>
           </div>
-          <div className="grid text-[#212529]">
-            <div className="flex justify-between items-center">
-              <span className="text-base font-medium">Flowbite</span>
-              <span className="text-sm font-medium">85%</span>
+          <div className="flex flex-col text-[#212529] w-full">
+            <div className="flex items-center justify-between">
+              <span>Customer Satisfaction</span>
+              <span>95%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
               <div
-                className="bg-[#7b68ee] h-3 rounded-full"
-                style={{ width: "85%" }}
+                className="h-3 rounded-full bg-[#7b68ee]"
+                style={{ width: "95%" }}
               ></div>
             </div>
-          </div> */}
+          </div>
+          <div className="flex flex-col text-[#212529] w-full">
+            <div className="flex items-center justify-between">
+              <span>Customer Relation</span>
+              <span>70%</span>
+            </div>
+            <div className="w-full bg-[#ddddff] rounded-full h-3">
+              <div
+                className="h-3 rounded-full bg-[#7b68ee]"
+                style={{ width: "70%" }}
+              ></div>
+            </div>
+          </div>
           <Link to="/about">
             <button className="bg-[#7b68ee] px-6 py-2 text-sm text-white font-semibold rounded">
               Learn More
             </button>
           </Link>
         </div>
+        <div className="w-full relative md:h-[500px]">
+          <img
+            src={aboutimg}
+            alt=""
+            className="rounded-lg w-full md:h-[500px]"
+          />
+          <span className="absolute bottom-0 right-0 left-0 w-full items-center justify-center flex">
+            <div className="flex flex-col items-center justify-center bg-[#F7F8F8] border border-b-[#ff9800] rounded-xl p-2">
+              <span className="text-6xl font-semibold text-[#44224b]">5</span>
+              <span className="text-[#ff9800] font-bold uppercase">
+                years of experience
+              </span>
+            </div>
+          </span>
+        </div>
         {/* <div className="grid">
-          <img src={aboutimg} alt="" className="rounded-lg w-[90dvw]" />
           <p className="grid items-center justify-center text-center py-8 bg-[#F7F8F8] -mt-52 mx-60 mb-32 rounded-xl border border-b-[#ff9800]">
             <span className="text-6xl font-semibold text-[#44224b]">5</span>
             <span className="text-[#ff9800] font-bold">
