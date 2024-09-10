@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import ServicesDetails from "./pages/ServicesDetails";
 import { Suspense } from "react";
 import ScrollToTop from "./layouts/ScrollToTop";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
                 element={<ServicesDetails />}
               />
               <Route path="portfolio" element={<Portfolio />} />
+              <Route path="contact" element={<Contact />} />
             </Route>
           </Routes>
         </Suspense>
