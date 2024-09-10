@@ -7,8 +7,10 @@ const mee = images?.mee;
 export default function Team() {
   return (
     <div className="items-center justify-center w-full text-center">
-      <p className="text-[#ff9800] text-2xl font-semibold p-2">Team Member</p>
-      <p className="text-5xl font-semibold">Expert Team</p>
+      <p className="text-[#ff9800] text-lg md:text-2xl font-semibold">
+        Team Member
+      </p>
+      <p className="md:text-2xl text-sm font-semibold">Expert Team</p>
       <div className="lg:flex gap-10 px-16 p-8">
         <div className="group grid relative">
           <div className="relative bg-gray-400 overflow-hidden rounded-lg group-hover:shadow-lg transition-all duration-300">
