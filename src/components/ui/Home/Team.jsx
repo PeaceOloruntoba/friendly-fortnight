@@ -1,5 +1,8 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
+import images from "../../../assets";
+
+const mee = images?.mee;
 
 export default function Team() {
   return (
