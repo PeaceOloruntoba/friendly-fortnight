@@ -8,6 +8,12 @@ import sky from "./images/skys.jpg";
 import feature1 from "./images/feature-icon-1.svg";
 import feature2 from "./images/feature-icon-2.svg";
 import feature3 from "./images/feature-icon-3.svg";
+import portfolio1 from "./images/portfolio-1.jpg";
+import portfolio2 from "./images/portfolio-2.jpg";
+import portfolio3 from "./images/portfolio-3.jpg";
+import portfolio4 from "./images/portfolio-4.jpg";
+import portfolio5 from "./images/portfolio-5.jpg";
+import portfolio6 from "./images/portfolio-6.jpg";
 
 export default {
   logo,
@@ -20,4 +26,10 @@ export default {
   feature1,
   feature2,
   feature3,
+  portfolio1,
+  portfolio2,
+  portfolio3,
+  portfolio4,
+  portfolio5,
+  portfolio6,
 };
