@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WorkProcess() {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#f7f8f8]">
+    <div className="flex flex-col items-center justify-center bg-[#f7f8f8] py-4">
       <p className="text-[#ff9800] text-lg md:text-2xl font-semibold">
         4 Step Work Process
       </p>
