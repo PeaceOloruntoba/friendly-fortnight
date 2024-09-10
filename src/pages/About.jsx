@@ -4,6 +4,7 @@ import Hero from "../components/ui/About/Hero";
 import More from "../components/ui/About/More";
 import Team from "../components/ui/Home/Team";
 import Contact from "../components/ui/Home/Contact";
+import WorkProcess from "../components/ui/About/WorkProcess";
 
 export default function About() {
   return (
@@ -12,6 +13,7 @@ export default function About() {
       <Hero />
       <More />
       <Team />
+      <WorkProcess />
       <Contact />
     </div>
   );
