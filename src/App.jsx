@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import ServicesDetails from "./pages/ServicesDetails";
 import { Suspense } from "react";
+import ScrollToTop from "./layouts/ScrollToTop";
 
 export default function App() {
   return (
