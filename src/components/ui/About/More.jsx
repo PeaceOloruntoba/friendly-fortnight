@@ -70,11 +70,6 @@ export default function More() {
               ></div>
             </div>
           </div>
-          <Link to="/about">
-            <button className="bg-[#7b68ee] px-6 py-2 text-sm text-white font-semibold rounded">
-              Learn More
-            </button>
-          </Link>
         </div>
         <div className="w-full relative md:h-[500px]">
           <img
