@@ -18,7 +18,7 @@ export default function Services() {
             title={service?.title}
             content={service?.content}
             image={service?.image}
-            link={service?.link}
+            link={`/services/${service?.link}`}
           />
         ))}
       </div>
