@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function PageHead({ name }) {
   return (
-    <div className="grid banner py-40 text-white text-center">
-      <p className="font-bold text-5xl p-6">{name}</p>
-      <p className="flex gap-4 items-center justify-center text-xl">
+    <div className="flex flex-col items-center justify-center gap-2 banner py-20 text-white text-center">
+      <p className="font-semibold text-3xl">{name}</p>
+      <p className="flex gap-4 items-center justify-center text-lg font-medium">
         <Link to="/" className="hover:text-blue-600 transition duration-300">
           Home
         </Link>
