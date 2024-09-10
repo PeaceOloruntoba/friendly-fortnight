@@ -1,4 +1,5 @@
 import React from "react";
+import PortfolioCard from "../../containers/PortfolioCard";
 
 export default function Projects() {
   return (
