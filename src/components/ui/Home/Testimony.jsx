@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimony({ quote, author, company, avatar }) {
   return (
     <div className="w-full p-8 flex-shrink-0 text-center">
-      <div className="p-6 bg-yellow-500 rounded-lg shadow-md">
+      <div className="p-6 bg-white/70 rounded-lg shadow-md">
         <p className="text-xl font-semibold text-slate-900">
           &quot;{quote}&quot;
         </p>
