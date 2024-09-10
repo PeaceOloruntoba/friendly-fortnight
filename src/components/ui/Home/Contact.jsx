@@ -6,9 +6,9 @@ const sky = images?.sky;
 
 export default function Contact() {
   return (
-    <div className="grid items-center justify-center text-center w-full text-white work">
-      <img src={sky} alt="" className="h-96" />
-      <div className="lg:px-40 md:px-32 md:py-8 sm:px-4 sm:py-1 lg:py-16">
+    <div className="items-center justify-center text-center w-full text-white relative">
+      <img src={sky} alt="" className="h-96 w-full inset-0" />
+      <div className="lg:px-40 md:px-32 md:py-8 sm:px-4 sm:py-1 lg:py-16 absolute inset-0 z-20 bg-black/80">
         <p className="uppercase text-[#ff9800] text-2xl font-semibold p-2">
           Want to work with us?
         </p>
