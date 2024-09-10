@@ -25,7 +25,7 @@ export default function TestimonialSlider({ testimonials }) {
   return (
     <div className="relative w-full max-w-4xl mx-auto">
       <button
-        className="absolute left-5 z-50 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 p-2 rounded-full"
+        className="absolute left-5 z-50 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-black/30 p-2 rounded-full"
         onClick={handlePrevClick}
       >
         <FaArrowLeft />
@@ -43,7 +43,7 @@ export default function TestimonialSlider({ testimonials }) {
       </div>
 
       <button
-        className="absolute right-5 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 p-2 rounded-full"
+        className="absolute right-5 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-black/30 p-2 rounded-full"
         onClick={handleNextClick}
       >
         <FaArrowRight />
