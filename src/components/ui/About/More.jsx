@@ -86,14 +86,6 @@ export default function More() {
             </div>
           </span>
         </div>
-        {/* <div className="grid">
-          <p className="grid items-center justify-center text-center py-8 bg-[#F7F8F8] -mt-52 mx-60 mb-32 rounded-xl border border-b-[#ff9800]">
-            <span className="text-6xl font-semibold text-[#44224b]">5</span>
-            <span className="text-[#ff9800] font-bold">
-              YEARS OF EXPERIENCE
-            </span>
-          </p>
-        </div> */}
       </div>
     </div>
   );
