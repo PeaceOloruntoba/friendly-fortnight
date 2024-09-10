@@ -1,6 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { feature1, feature2, feature3 } from "@/assets";
+import images from "../../../assets";
+
+const feature1 = images?.feature1;
+const feature2 = images?.feature2;
+const feature3 = images?.feature3;
 
 export default function Hero() {
   return (
