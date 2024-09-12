@@ -23,7 +23,7 @@ export default function WhyWhy() {
           </p>
           <div className="grid lg:grid-cols-2 gap-4 font-semibold lg:py-0 py-4">
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Remote IT Assistance
+              Tested and Trusted
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
               Cloud Services
@@ -32,7 +32,7 @@ export default function WhyWhy() {
               Managed IT Services
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              IT Security Services
+              Easy Process
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
               Practice IT Management

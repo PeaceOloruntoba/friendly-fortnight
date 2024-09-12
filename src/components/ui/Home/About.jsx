@@ -14,13 +14,13 @@ export default function About() {
             About Our Company
           </p>
           <p className="md:text-2xl text-sm font-semibold">
-            Providing Your Business With A Quality IT Service is Our Passion
+            Providing Your Business With A Quality Service is Our Passion
           </p>
           <p className="md:text-md text-sm text-[#474848]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            dolorem quo ipsam tenetur quae non distinctio ipsum ullam
-            repudiandae sint, saepe ad, officiis quaerat nihil reprehenderit
-            soluta, molestias doloremque veniam.
+            Welcome to Easing Life Group of Companies, an extensive company
+            dedicated to simplifying and improving different parts of your life.
+            We aspire to bring excellence, convenience, and innovation across
+            numerous industries through our diverse portfolio of enterprises.
           </p>
           <div className="flex flex-col text-[#212529] w-full">
             <div className="flex items-center justify-between">
