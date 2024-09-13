@@ -36,13 +36,13 @@ export default function About() {
           </div>
           <div className="flex flex-col text-[#212529] w-full">
             <div className="flex items-center justify-between">
-              <span>Customer Relation</span>
-              <span>90%</span>
+              <span>Customized Solutions</span>
+              <span>75%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
               <div
                 className="h-3 rounded-full bg-[#7b68ee]"
-                style={{ width: "90%" }}
+                style={{ width: "75%" }}
               ></div>
             </div>
           </div>
