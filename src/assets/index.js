@@ -14,6 +14,7 @@ import portfolio3 from "./images/portfolio-3.jpg";
 import portfolio4 from "./images/portfolio-4.jpg";
 import portfolio5 from "./images/portfolio-5.jpg";
 import portfolio6 from "./images/portfolio-6.jpg";
+import ceo from "./images/ceo.jpg";
 
 export default {
   logo,
@@ -32,4 +33,5 @@ export default {
   portfolio4,
   portfolio5,
   portfolio6,
+  ceo,
 };
