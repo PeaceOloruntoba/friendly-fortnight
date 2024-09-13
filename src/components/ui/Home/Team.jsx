@@ -49,7 +49,7 @@ export default function Team() {
               </div>
             </div>
           </div>
-          <p className="mt-2">John </p>
+          <p className="mt-2">John Yakubu</p>
           <p className="text-gray-500">Co-Founder, CTO</p>
         </div>
       </div>
