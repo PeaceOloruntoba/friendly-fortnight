@@ -48,7 +48,7 @@ export default function About() {
           </div>
           <div className="flex flex-col text-[#212529] w-full">
             <div className="flex items-center justify-between">
-              <span>Customer Satisfaction</span>
+              <span>Innovative Technology</span>
               <span>95%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
