@@ -1,6 +1,7 @@
 import React from "react";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import images from "../../../assets";
+import { FaXTwitter } from "react-icons/fa6";
 
 const mee = images?.mee;
 
@@ -17,14 +18,37 @@ export default function Team() {
             <img src={mee} alt="" className="rounded-lg" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div className="bg-gray-800 bg-opacity-75 p-4 rounded-lg flex w-full h-full items-center justify-center gap-4">
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://www.linkedin.com/in/vincent-darkoh-60756618a"
+                    target="_blank"
+                  >
+                    <FaLinkedinIn />
+                  </a>
                 </span>
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://www.instagram.com/knight_vincente/"
+                    target="_blank"
+                  >
+                    <FaInstagram />
+                  </a>
+                </span>{" "}
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://twitter.com/poulsencrop?t=VRp3Kqqs7UlldBxgSvECVw&s=09"
+                    target="_blank"
+                  >
+                    <FaXTwitter />
+                  </a>
                 </span>
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://web.facebook.com/vincent.d.darkoh"
+                    target="_blank"
+                  >
+                    <FaFacebook />
+                  </a>
                 </span>
               </div>
             </div>
@@ -37,14 +61,37 @@ export default function Team() {
             <img src={mee} alt="" className="rounded-lg" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div className="bg-gray-800 bg-opacity-75 p-4 rounded-lg flex w-full h-full items-center justify-center gap-4">
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://www.linkedin.com/in/vincent-darkoh-60756618a"
+                    target="_blank"
+                  >
+                    <FaLinkedinIn />
+                  </a>
                 </span>
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://www.instagram.com/knight_vincente/"
+                    target="_blank"
+                  >
+                    <FaInstagram />
+                  </a>
+                </span>{" "}
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://twitter.com/poulsencrop?t=VRp3Kqqs7UlldBxgSvECVw&s=09"
+                    target="_blank"
+                  >
+                    <FaXTwitter />
+                  </a>
                 </span>
-                <span className="text-white text-xl border p-1 rounded-lg">
-                  <FaLinkedinIn />
+                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                  <a
+                    href="https://web.facebook.com/vincent.d.darkoh"
+                    target="_blank"
+                  >
+                    <FaFacebook />
+                  </a>
                 </span>
               </div>
             </div>
