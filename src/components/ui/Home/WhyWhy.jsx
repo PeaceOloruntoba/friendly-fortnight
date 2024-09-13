@@ -13,68 +13,74 @@ export default function WhyWhy() {
             Why Choose Us?
           </p>
           <p className="md:text-2xl text-sm font-semibold">
-            Safeguard Your Brand with Cyber Security and IT Solutions
+            Choose us for innovative, tailored solutions that drive efficiency,
+            security, and growth for your business."
           </p>
           <p className="md:text-md text-sm text-[#474848]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-            excepturi tempore fugit alias ipsum quod aut non nulla culpa
-            laboriosam nihil aspernatur autem voluptas necessitatibus maiores
-            asperiores? Recusandae, velit omnis?
+            Choosing Easing Life Group of Companies means choosing a partner
+            dedicated to making your life simpler, more convenient, and more
+            successful. We stand out not only because of the breadth of our
+            offerings but because of our passion for delivering results that
+            truly enhance the lives of our clients.
           </p>
           <div className="grid lg:grid-cols-2 gap-4 font-semibold lg:py-0 py-4">
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Tested and Trusted
+              All-in-One Convenience
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Cloud Services
+              Personalized Attention
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Managed IT Services
+              Cutting-Edge Technology
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Easy Process
+              Affordable Solutions
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Practice IT Management
+              Efficiency & Speed
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Solving IT Problems
+              Wide Industry Reach
             </div>
           </div>
         </div>
       </div>
       <div className="lg:flex grid py-10 gap-6">
         <div className="grid">
-          <p className="ttext-[#ff9800] text-lg md:text-2xl font-semibold">
+          <p className="text-[#ff9800] text-lg md:text-2xl font-semibold">
             Why Trust Us?
           </p>
           <p className="md:text-2xl text-sm font-semibold">
-            Achieve Digital Transformation For Your Retail Business Services
+            Partner with us to achieve seamless digital transformation for your
+            retail business
           </p>
           <p className="md:text-md text-sm text-[#474848]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-            excepturi tempore fugit alias ipsum quod aut non nulla culpa
-            laboriosam nihil aspernatur autem voluptas necessitatibus maiores
-            asperiores? Recusandae, velit omnis?
+            At Easing Life Group of Companies, we have built our reputation on
+            delivering unmatched quality and tailored solutions that meet the
+            evolving needs of our clients. Our commitment to integrity,
+            excellence, and client satisfaction sets us apart as a trusted
+            partner in multiple industries. With a team of experts, cutting-edge
+            technology, and a deep understanding of various sectors, we ensure
+            that your life becomes more streamlined, secure, and successful.
           </p>
           <div className="grid lg:grid-cols-2 gap-4 font-semibold lg:py-0 py-4">
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Remote IT Assistance
+              Proven Expertise
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Cloud Services
+              Client-Centric Approach
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Managed IT Services
+              Innovative Solutions
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              IT Security Services
+              Reliability
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Practice IT Management
+              Transparency
             </div>
             <div className="flex w-full shadow-lg shadow-gray-200 items-center px-4 rounded-lg py-2 border border-l-[#7b68ee]">
-              Solving IT Problems
+              Holistic Services
             </div>
           </div>
         </div>
