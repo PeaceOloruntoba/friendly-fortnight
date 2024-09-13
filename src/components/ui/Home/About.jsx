@@ -24,7 +24,7 @@ export default function About() {
           </p>
           <div className="flex flex-col text-[#212529] w-full">
             <div className="flex items-center justify-between">
-              <span>Customer Relation</span>
+              <span>Expertise and Experience</span>
               <span>90%</span>
             </div>
             <div className="w-full bg-[#ddddff] rounded-full h-3">
