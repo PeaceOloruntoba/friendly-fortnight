@@ -16,10 +16,10 @@ export default function Contact() {
           Digitally Transform &amp; Grow Your Business
         </p>
         <p className="md:text-md text-sm">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus,
-          reprehenderit provident? Vel, iusto sit minus, accusamus aspernatur
-          quae iste recusandae voluptate, impedit nobis voluptatem nesciunt
-          corporis eaque mollitia excepturi explicabo.
+          Partner with us to enhance your business with cutting-edge IT and
+          cybersecurity solutions. We offer tailored strategies that drive
+          growth and secure your digital assets, ensuring your success in a
+          competitive landscape.
         </p>
         <span className="flex gap-6 items-center justify-center text-xl">
           <a href="tel:">
