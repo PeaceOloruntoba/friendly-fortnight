@@ -4,7 +4,7 @@ import images from "../../../assets";
 import { FaXTwitter } from "react-icons/fa6";
 
 const ceo = images?.ceo;
-const mee = images?.mee;
+const john = images?.john;
 
 export default function Team() {
   return (
@@ -59,18 +59,18 @@ export default function Team() {
         </div>
         <div className="group grid relative">
           <div className="relative bg-gray-400 overflow-hidden rounded-lg group-hover:shadow-lg transition-all duration-300">
-            <img src={mee} alt="" className="rounded-lg w-56 h-72" />
+            <img src={john} alt="" className="rounded-lg w-56 h-72" />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div className="bg-gray-800 bg-opacity-75 p-4 rounded-lg flex w-full h-full items-center justify-center gap-4">
                 <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
                   <a
-                    href="https://www.linkedin.com/in/vincent-darkoh-60756618a"
+                    href="https://www.linkedin.com/in/john-yakubu-41949815b/"
                     target="_blank"
                   >
                     <FaLinkedinIn />
                   </a>
                 </span>
-                <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
+                {/* <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
                   <a
                     href="https://www.instagram.com/knight_vincente/"
                     target="_blank"
@@ -85,10 +85,10 @@ export default function Team() {
                   >
                     <FaXTwitter />
                   </a>
-                </span>
+                </span> */}
                 <span className="text-white text-xl border p-1 rounded-lg hover:bg-black/70 transition-colors duration-300">
                   <a
-                    href="https://web.facebook.com/vincent.d.darkoh"
+                    href="https://www.facebook.com/john.yakubu.921?sfnsn=wa&mibextid=RUbZ1f"
                     target="_blank"
                   >
                     <FaFacebook />
