@@ -68,6 +68,11 @@ export default function Navbar() {
               Services
             </Link>
           </li>
+          {/* <li>
+            <Link to="/services" onClick={closeMenu}>
+              Services
+            </Link>
+          </li> */}
           <li>
             <Link to="/#team" onClick={closeMenu}>
               Team
