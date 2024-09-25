@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
         <div className="grid lg:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1">
           <div className="w-full text-sm">
-            <p className="text-lg font-semibold">Our Services</p>
+            {/* <p className="text-lg font-semibold">Our Services</p>
             <hr />
             <ul className="py-1">
               <li>
@@ -44,26 +44,26 @@ export default function Footer() {
               <li>
                 <Link to="">Service 1</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="w-full text-sm">
             <p className="text-lg font-semibold">Useful Links</p>
             <hr />
             <ul className="py-1">
               <li>
-                <Link to="">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="">Teams</Link>
+                <Link to="/#team">Teams</Link>
               </li>
               <li>
-                <Link to="">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -72,13 +72,13 @@ export default function Footer() {
             <hr />
             <ul className="py-1">
               <li>
-                <Link to="">Email:</Link>
+                <a href="mailto:">Email:</a>
               </li>
               <li>
-                <Link to="">Phone:</Link>
+                <a href="tel:">Phone:</a>
               </li>
               <li>
-                <Link to="">Address</Link>
+                <a href="">Address</a>
               </li>
             </ul>
           </div>
