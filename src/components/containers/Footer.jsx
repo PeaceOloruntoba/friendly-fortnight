@@ -72,7 +72,9 @@ export default function Footer() {
             <hr />
             <ul className="py-1">
               <li>
-                <a href="mailto:">Email:</a>
+                <a href="mailto:easinglife95@gmail.com">
+                  Email: easinglife95@gmail.com
+                </a>
               </li>
               <li>
                 <a href="tel:">Phone:</a>
