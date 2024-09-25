@@ -74,11 +74,6 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" onClick={closeMenu}>
-              Portfolio
-            </Link>
-          </li>
-          <li>
             <Link to="/#testimonial" onClick={closeMenu}>
               Testimonial
             </Link>
