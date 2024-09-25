@@ -1,6 +1,7 @@
 import React from "react";
 import { servicesData } from "../../../data/servicesData";
 import ServiceCard from "../../containers/ServiceCard";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -12,7 +13,7 @@ export default function Services() {
       </div>
       <span className="text-xl md:text-3xl font-bold">Our Services</span>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12 md:px-24 px-4">
-        {servicesData?.map((service) => (
+        {servicesData?.slice(0, 3)?.map((service) => (
           <ServiceCard
             key={service?.id}
             title={service?.title}
@@ -21,6 +22,13 @@ export default function Services() {
             link={`/services/${service?.link}`}
           />
         ))}
+      </div>
+      <div className="w-full items-center flex justify-end px-8 md:px-24">
+        <Link to="/services">
+          <button className="bg-blue-600 text-white px-4 py-2 rounded font-semibold hover:bg-blue-800 transition-all duration-500">
+            More Services
+          </button>
+        </Link>
       </div>
     </div>
   );
