@@ -14,8 +14,12 @@ export default function Home() {
       <Services />
       <About />
       <WhyWhy />
-      <Team />
-      <Testimonial />
+      <div id="team">
+        <Team />
+      </div>
+      <div id="testimonial">
+        <Testimonial />
+      </div>
       <Contact />
     </div>
   );
