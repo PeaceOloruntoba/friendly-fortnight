@@ -43,11 +43,11 @@ export default function Hamburger() {
                   Faqs
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#testimonial" onClick={() => setIsOpen(false)}>
                   Testimonials
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact" onClick={() => setIsOpen(false)}>
                   Contact Us
