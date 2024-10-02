@@ -16,8 +16,9 @@ export default function Jumbotron() {
                 IT Solution & Business Service Company
               </p>
               <p className="text-xs md:text-lg text-white font-normal">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-                nemo quas id natus quod.
+                Transforming Ideas into Action, We Provide a Spectrum of
+                Services Designed to Elevate Your Business and Empower Your
+                Success.
               </p>
               <span className="flex items-start justify-center gap-4">
                 <Link to="/services">
