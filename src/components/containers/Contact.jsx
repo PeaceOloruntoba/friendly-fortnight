@@ -49,7 +49,6 @@ export default function Contact() {
           <p className="text-center mb-4">
             You can contact us through the following form:
           </p>
-
           <div className="grid md:grid-cols-2 gap-4">
             <input
               type="text"
@@ -88,7 +87,6 @@ export default function Contact() {
               required
             />
           </div>
-
           <button
             type="submit"
             className="mt-4 bg-slate-800 hover:bg-yellow-600 text-black font-semibold py-2 px-6 rounded-lg w-full"
@@ -96,13 +94,10 @@ export default function Contact() {
             Submit
           </button>
         </form>
-
-        {/* Contact Details */}
         <div className="bg-gray-800 text-slate-800 p-8 rounded-lg shadow-lg mt-8 lg:mt-0 w-full lg:w-1/3">
           <p className="text-2xl font-semibold mb-4 text-center">
             Contact Details
           </p>
-
           <div className="space-y-4 text-sm">
             <div className="flex items-center space-x-2">
               <FaHome />
