@@ -94,7 +94,7 @@ export default function Contacts() {
             Submit
           </button>
         </form>
-        <div className="bg-gray-800 text-slate-800 p-8 rounded-lg shadow-lg mt-8 lg:mt-0 w-full lg:w-1/3">
+        <div className="bg-gray-900 text-white p-8 rounded-lg shadow-lg mt-8 lg:mt-0 w-full lg:w-1/3">
           <p className="text-2xl font-semibold mb-4 text-center">
             Contact Details
           </p>
