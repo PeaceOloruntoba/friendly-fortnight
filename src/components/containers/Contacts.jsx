@@ -24,7 +24,7 @@ export default function Contacts() {
     emailjs
       .send(
         "service_6adsfun",
-        "template_2hoydqd",
+        "template_9r6w0c9",
         formData,
         "bz8EazjXjhswwveoq"
       )
