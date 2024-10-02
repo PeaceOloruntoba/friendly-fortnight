@@ -22,7 +22,12 @@ export default function Contacts() {
     e.preventDefault();
 
     emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData, "YOUR_USER_ID")
+      .send(
+        "service_6adsfun",
+        "template_2hoydqd",
+        formData,
+        "bz8EazjXjhswwveoq"
+      )
       .then((result) => {
         console.log("Email successfully sent:", result.text);
       })
