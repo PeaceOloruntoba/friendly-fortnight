@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col w-full">
       <PageHead name={"Contact"} />
-      <ContactForm />
+      <Contact />
     </div>
   );
 }

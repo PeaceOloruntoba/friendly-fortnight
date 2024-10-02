@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
-export default function Contact() {
+export default function Contacts() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
