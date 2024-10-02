@@ -39,12 +39,11 @@ export default function Contacts() {
   };
 
   return (
-    <div className="bg-slate-800 textmdl py-8 px-4" id="contact">
-      <p className="text-2xl font-bold text-center mb-8">Contact Us</p>
+    <div className="textmdl py-8 px-4" id="contact">
       <div className="flex flex-col lg:flex-row lg:space-x-8 items-center justify-center w-full max-w-6xl mx-auto">
         <form
           onSubmit={handleSubmit}
-          className="bg-gray-900 text-white p-8 rounded-lg shadow-lg w-full lg:w-2/3"
+          className="bg-gray-200 text-gray-900 p-8 rounded-lg shadow-lg w-full lg:w-2/3"
         >
           <p className="text-center mb-4">
             You can contact us through the following form:
@@ -89,12 +88,12 @@ export default function Contacts() {
           </div>
           <button
             type="submit"
-            className="mt-4 bg-slate-800 hover:bg-yellow-600 text-black font-semibold py-2 px-6 rounded-lg w-full"
+            className="mt-4 bg-blue-600 hover:bg-blue-800 text-white font-semibold py-2 px-6 rounded-lg w-full transition-all duration-500"
           >
             Submit
           </button>
         </form>
-        <div className="bg-gray-900 text-white p-8 rounded-lg shadow-lg mt-8 lg:mt-0 w-full lg:w-1/3">
+        <div className="bg-gray-200 text-gray-900 p-8 rounded-lg shadow-lg mt-8 lg:mt-0 w-full lg:w-1/3">
           <p className="text-2xl font-semibold mb-4 text-center">
             Contact Details
           </p>
