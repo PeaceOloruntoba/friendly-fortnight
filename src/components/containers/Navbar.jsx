@@ -78,11 +78,11 @@ export default function Navbar() {
               Team
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/#testimonial" onClick={closeMenu}>
               Testimonial
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="hidden md:flex">
